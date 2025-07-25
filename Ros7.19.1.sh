@@ -3,7 +3,7 @@
 # 检查系统启动方式（BIOS/UEFI）
 if [ -d /sys/firmware/efi ]; then
     # UEFI 启动
-    IMG_URL="https://github.com/Jungle4869/install-routeros-shc/releases/download/Ros7.19.1/chr-7.19.1.img"
+    IMG_URL="https://github.com/qq48674431/install_routeros/releases/download/7.19.1/chr-7.19.1.img"
     echo "检测到 UEFI 启动方式，使用 UEFI 镜像包"
 else
     # BIOS 启动

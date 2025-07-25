@@ -1,1 +1,3 @@
-# install_routeros
+# vps install_routeros
+本脚本使用与CentOS，Ubuntu，Debian安装routeros，脚本会自动识别系统的系统方式从而选择不同的安装方式
+注意：本脚本只适用于开启了dhcp的vps
